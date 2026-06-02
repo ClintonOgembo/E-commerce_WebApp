@@ -1,0 +1,56 @@
+@model ShopApp.Models.Order
+@{
+    ViewData["Title"] = $"Order #{Model.Id}";
+}
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a asp-action="Index">My Orders</a></li>
+        <li class="breadcrumb-item active">Order #@Model.Id</li>
+    </ol>
+</nav>
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="card shadow-sm">
+            <div class="card-header bg-dark text-white fw-bold">Order Items</div>
+            <table class="table mb-0">
+                <thead>
+                    <tr><th>Product</th><th>Price</th><th>Qty</th><th>Subtotal</th></tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Items)
+                    {
+                        <tr>
+                            <td>@item.Product?.Name</td>
+                            <td>KES @item.UnitPrice.ToString("N2")</td>
+                            <td>@item.Quantity</td>
+                            <td class="fw-bold text-success">KES @((item.UnitPrice * item.Quantity).ToString("N2"))</td>
+                        </tr>
+                    }
+                </tbody>
+                <tfoot>
+                    <tr class="table-light">
+                        <td colspan="3" class="text-end fw-bold">Total</td>
+                        <td class="fw-bold text-success">KES @Model.TotalAmount.ToString("N2")</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card shadow-sm">
+            <div class="card-header bg-dark text-white fw-bold">Order Info</div>
+            <div class="card-body">
+                <p><strong>Order #:</strong> @Model.Id</p>
+                <p><strong>Date:</strong> @Model.OrderDate.ToString("dd MMM yyyy HH:mm")</p>
+                <p><strong>Status:</strong> <span class="badge bg-info text-dark">@Model.Status</span></p>
+                <hr />
+                <p><strong>Ship to:</strong><br />
+                   @Model.ShippingAddress<br />
+                   @Model.ShippingCity, @Model.ShippingCountry
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,115 @@
+@model ShopApp.Models.ApplicationUser
+@{
+    ViewData["Title"] = "Checkout";
+    var items = ViewBag.CartItems as List<ShopApp.Models.CartItem>;
+    decimal total = ViewBag.Total;
+}
+
+<h2 class="mb-4"><i class="bi bi-lock-fill me-2"></i>Checkout</h2>
+
+<div class="row">
+    <!-- Shipping form -->
+    <div class="col-md-7">
+        <div class="card shadow-sm mb-4">
+            <div class="card-header bg-dark text-white fw-bold">Shipping Information</div>
+            <div class="card-body">
+                <div id="payment-form">
+                    <div class="mb-3">
+                        <label class="form-label">Full Name</label>
+                        <input type="text" class="form-control" value="@Model?.FullName" readonly />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control" value="@Model?.Email" readonly />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Street Address</label>
+                        <input type="text" id="shippingAddress" class="form-control" placeholder="123 Main Street" required />
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">City</label>
+                            <input type="text" id="shippingCity" class="form-control" placeholder="Nairobi" required />
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">Country</label>
+                            <input type="text" id="shippingCountry" class="form-control" value="Kenya" required />
+                        </div>
+                    </div>
+
+                    <hr />
+                    <h5>Payment Details</h5>
+                    <div id="card-element" class="form-control py-3 mb-3">
+                        <!-- Stripe injects card form here -->
+                    </div>
+                    <div id="card-errors" class="text-danger mb-3"></div>
+
+                    <button id="pay-btn" type="button" class="btn btn-warning btn-lg w-100" onclick="submitPayment()">
+                        <i class="bi bi-credit-card me-1"></i>Pay KES @total.ToString("N2")
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Order summary -->
+    <div class="col-md-5">
+        <div class="card shadow-sm">
+            <div class="card-header bg-dark text-white fw-bold">Your Order</div>
+            <ul class="list-group list-group-flush">
+                @foreach (var item in items!)
+                {
+                    <li class="list-group-item d-flex justify-content-between">
+                        <span>@item.ProductName <span class="badge bg-secondary">x@item.Quantity</span></span>
+                        <strong>KES @item.Total.ToString("N2")</strong>
+                    </li>
+                }
+                <li class="list-group-item d-flex justify-content-between fw-bold bg-light">
+                    <span>Total</span>
+                    <span class="text-success fs-5">KES @total.ToString("N2")</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Hidden form submitted after Stripe token obtained -->
+<form id="order-form" asp-action="PlaceOrder" method="post" style="display:none;">
+    <input type="hidden" name="shippingAddress" id="h-address" />
+    <input type="hidden" name="shippingCity" id="h-city" />
+    <input type="hidden" name="shippingCountry" id="h-country" />
+    <input type="hidden" name="stripeToken" id="h-token" />
+</form>
+
+@section Scripts {
+    <script src="https://js.stripe.com/v3/"></script>
+    <script>
+        const stripe = Stripe('@ViewBag.StripePublicKey');
+        const elements = stripe.elements();
+        const card = elements.create('card', { style: { base: { fontSize: '16px' } } });
+        card.mount('#card-element');
+        card.on('change', e => {
+            document.getElementById('card-errors').textContent = e.error ? e.error.message : '';
+        });
+
+        async function submitPayment() {
+            const btn = document.getElementById('pay-btn');
+            btn.disabled = true;
+            btn.innerHTML = '<span class="spinner-border spinner-border-sm me-2"></span>Processing…';
+
+            const { token, error } = await stripe.createToken(card);
+            if (error) {
+                document.getElementById('card-errors').textContent = error.message;
+                btn.disabled = false;
+                btn.innerHTML = 'Pay KES @total.ToString("N2")';
+                return;
+            }
+
+            document.getElementById('h-address').value = document.getElementById('shippingAddress').value;
+            document.getElementById('h-city').value = document.getElementById('shippingCity').value;
+            document.getElementById('h-country').value = document.getElementById('shippingCountry').value;
+            document.getElementById('h-token').value = token.id;
+            document.getElementById('order-form').submit();
+        }
+    </script>
+}
