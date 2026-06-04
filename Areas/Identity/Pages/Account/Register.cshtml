@@ -1,7 +1,8 @@
-@page
+@page "/Identity/Account/Register"
 @model ShopApp.Areas.Identity.Pages.Account.RegisterModel
 @{
     ViewData["Title"] = "Register";
+    Layout = "/Views/Shared/_Layout.cshtml";
 }
 
 <div class="row justify-content-center">
@@ -9,7 +10,7 @@
         <div class="card shadow-sm">
             <div class="card-header bg-dark text-white fw-bold">Create Account</div>
             <div class="card-body">
-                <form asp-action="Register" method="post">
+                <form method="post">
                     <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
                     <div class="mb-3">
                         <label asp-for="Input.FirstName" class="form-label">First Name</label>

@@ -38,7 +38,7 @@ namespace ShopApp.Areas.Identity.Pages.Account
                 Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: false);
 
             if (result.Succeeded)
-                return LocalRedirect("/");
+                return LocalRedirect("/Home/Index");
 
             ModelState.AddModelError(string.Empty, "Invalid email or password.");
             return Page();

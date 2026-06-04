@@ -1,7 +1,12 @@
-@page
+@page "/Identity/Account/Login"
 @model ShopApp.Areas.Identity.Pages.Account.LoginModel
 @{
     ViewData["Title"] = "Login";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+@if (Request.Query["message"] == "registered")
+{
+    <div class="alert alert-success">Account created! Please log in.</div>
 }
 
 <div class="row justify-content-center">
@@ -9,7 +14,7 @@
         <div class="card shadow-sm">
             <div class="card-header bg-dark text-white fw-bold">Login</div>
             <div class="card-body">
-                <form asp-action="Login" method="post">
+                <form method="post">
                     <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
                     <div class="mb-3">
                         <label asp-for="Input.Email" class="form-label">Email</label>

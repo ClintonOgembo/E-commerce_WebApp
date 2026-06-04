@@ -59,8 +59,7 @@ namespace ShopApp.Areas.Identity.Pages.Account
 
             if (result.Succeeded)
             {
-                await _signInManager.SignInAsync(user, isPersistent: false);
-                return LocalRedirect("/");
+                return RedirectToPage("/Account/Login", new { area = "Identity", message = "registered" });
             }
 
             foreach (var error in result.Errors)
