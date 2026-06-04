@@ -35,11 +35,12 @@
                         <label asp-for="Input.ConfirmPassword" class="form-label">Confirm Password</label>
                         <input asp-for="Input.ConfirmPassword" class="form-control" />
                         <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
-                    </div>>
+                    </div>
                     <button type="submit" class="btn btn-warning w-100">Register</button>
                 </form>
-                <p class="mt-3 text-center">Already have an account? <a asp-page="./Login">Login</a></p>
+                <p class="mt-3 text-center">Already have an account? <a asp-area="Identity"
+                                                                            asp-page="/Account/Login">Login</a></p>
+                </div>
             </div>
         </div>
     </div>
-</div>
