@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ShopApp.Data;
 
@@ -11,9 +12,11 @@ using ShopApp.Data;
 namespace ShopApp.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260606210342_UpdateProductDescriptions")]
+    partial class UpdateProductDescriptions
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -404,84 +407,36 @@ namespace ShopApp.Migrations
                         {
                             Id = 1,
                             CategoryId = 1,
-                            CreatedAt = new DateTime(2026, 6, 6, 21, 39, 7, 834, DateTimeKind.Utc).AddTicks(6427),
+                            CreatedAt = new DateTime(2026, 6, 6, 21, 3, 42, 509, DateTimeKind.Utc).AddTicks(2305),
                             Description = "High quality Bluetooth headphones with noise cancellation.",
                             ImageUrl = "/images/headphones.jpeg",
                             IsActive = true,
                             Name = "Wireless Headphones",
-                            Price = 4500.00m,
+                            Price = 4999.00m,
                             Stock = 50
                         },
                         new
                         {
                             Id = 2,
                             CategoryId = 2,
-                            CreatedAt = new DateTime(2026, 6, 6, 21, 39, 7, 834, DateTimeKind.Utc).AddTicks(6435),
-                            Description = "Inflatable sofa seat with foot stool and manual pump now available in colour grey, beige, blue, green, red, pink, purple.",
+                            CreatedAt = new DateTime(2026, 6, 6, 21, 3, 42, 509, DateTimeKind.Utc).AddTicks(2313),
+                            Description = "100% cotton casual t-shirt, available in multiple colours.",
                             ImageUrl = "/images/lazysofa.jpeg",
                             IsActive = true,
                             Name = "Lazy Sofa",
-                            Price = 2700.00m,
+                            Price = 799.00m,
                             Stock = 200
                         },
                         new
                         {
                             Id = 3,
                             CategoryId = 3,
-                            CreatedAt = new DateTime(2026, 6, 6, 21, 39, 7, 834, DateTimeKind.Utc).AddTicks(6437),
-                            Description = "Ailyons bottom load water dispenser now available hot and cold. Model; AFK 8848.",
+                            CreatedAt = new DateTime(2026, 6, 6, 21, 3, 42, 509, DateTimeKind.Utc).AddTicks(2315),
+                            Description = "Automatic drip coffee maker with 12-cup capacity.",
                             ImageUrl = "/images/dispenser.jpeg",
                             IsActive = true,
                             Name = "Water Dispenser",
-                            Price = 9700.00m,
-                            Stock = 30
-                        },
-                        new
-                        {
-                            Id = 4,
-                            CategoryId = 2,
-                            CreatedAt = new DateTime(2026, 6, 6, 21, 39, 7, 834, DateTimeKind.Utc).AddTicks(6438),
-                            Description = "Portable inflatable car back seat bed. Comes with a pump powered through the cigar lighter socket. 3 colours available; blue, grey, beige, black.",
-                            ImageUrl = "/images/carmart.jpeg",
-                            IsActive = true,
-                            Name = "Car back seat bed",
-                            Price = 3000.00m,
-                            Stock = 30
-                        },
-                        new
-                        {
-                            Id = 5,
-                            CategoryId = 2,
-                            CreatedAt = new DateTime(2026, 6, 6, 21, 39, 7, 834, DateTimeKind.Utc).AddTicks(6440),
-                            Description = "2 Curtains 1.5m each, 1 Sheer 3m, height 2.5m.",
-                            ImageUrl = "/images/curtains.jpeg",
-                            IsActive = true,
-                            Name = "3Pc Curtains",
-                            Price = 3300.00m,
-                            Stock = 30
-                        },
-                        new
-                        {
-                            Id = 6,
-                            CategoryId = 3,
-                            CreatedAt = new DateTime(2026, 6, 6, 21, 39, 7, 834, DateTimeKind.Utc).AddTicks(6442),
-                            Description = "High quality non stick 6in1 cake mould/ baking tins now available. Size: 28,26,24,22,18",
-                            ImageUrl = "/images/nonstick-sufurias.jpeg",
-                            IsActive = true,
-                            Name = "Non stick sufuria",
-                            Price = 1550.00m,
-                            Stock = 30
-                        },
-                        new
-                        {
-                            Id = 7,
-                            CategoryId = 3,
-                            CreatedAt = new DateTime(2026, 6, 6, 21, 39, 7, 834, DateTimeKind.Utc).AddTicks(6443),
-                            Description = "Rectangular 5in1 metallic bathroom shelf organizer shower caddy set now available.",
-                            ImageUrl = "/images/wallhangers.jpeg",
-                            IsActive = true,
-                            Name = "Wall hangers",
-                            Price = 1800.00m,
+                            Price = 3499.00m,
                             Stock = 30
                         });
                 });

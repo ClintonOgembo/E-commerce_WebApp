@@ -5,6 +5,34 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\images\\carmart.jpeg",
+      "PackagePath": "staticwebassets\\images\\carmart.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\images\\curtains.jpeg",
+      "PackagePath": "staticwebassets\\images\\curtains.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\images\\dispenser.jpeg",
+      "PackagePath": "staticwebassets\\images\\dispenser.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\images\\headphones.jpeg",
+      "PackagePath": "staticwebassets\\images\\headphones.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\images\\lazysofa.jpeg",
+      "PackagePath": "staticwebassets\\images\\lazysofa.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\images\\nonstick-sufurias.jpeg",
+      "PackagePath": "staticwebassets\\images\\nonstick-sufurias.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\images\\wallhangers.jpeg",
+      "PackagePath": "staticwebassets\\images\\wallhangers.jpeg"
+    },
+    {
       "Id": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

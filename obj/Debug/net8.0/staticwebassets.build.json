@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tK7Ub0G9vAMkWwpabAa2KsudGjTuMUCzCidH1nhNhZw=",
+  "Hash": "+0FbWZnDAbJxgT8WJ9vIujwJ9XBQIu5+ZaVVn2AmyTg=",
   "Source": "ShopApp",
   "BasePath": "_content/ShopApp",
   "Mode": "Default",
@@ -1296,6 +1296,153 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\images\\carmart.jpeg",
+      "SourceId": "ShopApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\",
+      "BasePath": "_content/ShopApp",
+      "RelativePath": "images/carmart#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8zytxl4o4v",
+      "Integrity": "rDSLSAxNa9Oi8F4g/LhVf3SlXttzxZ7C2i0eEb2MsDw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\carmart.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\images\\curtains.jpeg",
+      "SourceId": "ShopApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\",
+      "BasePath": "_content/ShopApp",
+      "RelativePath": "images/curtains#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "89w8gj5v4y",
+      "Integrity": "TKGLB5mGASpaAtid596712h6RuB5Q5zC9dEUF0Lmhqw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\curtains.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\images\\dispenser.jpeg",
+      "SourceId": "ShopApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\",
+      "BasePath": "_content/ShopApp",
+      "RelativePath": "images/dispenser#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1k5jyvvogd",
+      "Integrity": "4dDLDI6KphEJXZ5DKlng0ds5xeSDihcBPNHpIPcFgA4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\dispenser.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\images\\headphones.jpeg",
+      "SourceId": "ShopApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\",
+      "BasePath": "_content/ShopApp",
+      "RelativePath": "images/headphones#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wa8kpwkt4r",
+      "Integrity": "+N8hxsIgFTLaFqalbGXFHVHCYijtSoaVHfLetNkIJy0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\headphones.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\images\\lazysofa.jpeg",
+      "SourceId": "ShopApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\",
+      "BasePath": "_content/ShopApp",
+      "RelativePath": "images/lazysofa#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tuzdnb7ovc",
+      "Integrity": "OxYFugrdtr3o6ngUSXldX1Rz9G4ZrF3xpHSk0G33vLY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\lazysofa.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\images\\nonstick-sufurias.jpeg",
+      "SourceId": "ShopApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\",
+      "BasePath": "_content/ShopApp",
+      "RelativePath": "images/nonstick-sufurias#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "efbxscket6",
+      "Integrity": "5juBHhQuTG31zLhfYhuaqzDUf7V2kRB/Ppb0Umkurjw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\nonstick-sufurias.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\images\\wallhangers.jpeg",
+      "SourceId": "ShopApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\",
+      "BasePath": "_content/ShopApp",
+      "RelativePath": "images/wallhangers#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tctaujgfvb",
+      "Integrity": "44JLSoRKnOa/cbh4WHeVMJBBXT5W33/BvQGsuKQ5Udc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\wallhangers.jpeg"
     },
     {
       "Identity": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\js\\site.js",
@@ -3619,6 +3766,580 @@
         {
           "Name": "integrity",
           "Value": "sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="
+        }
+      ]
+    },
+    {
+      "Route": "images/carmart.8zytxl4o4v.jpeg",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\images\\carmart.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67221"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rDSLSAxNa9Oi8F4g/LhVf3SlXttzxZ7C2i0eEb2MsDw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 06 Jun 2026 20:33:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8zytxl4o4v"
+        },
+        {
+          "Name": "label",
+          "Value": "images/carmart.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rDSLSAxNa9Oi8F4g/LhVf3SlXttzxZ7C2i0eEb2MsDw="
+        }
+      ]
+    },
+    {
+      "Route": "images/carmart.jpeg",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\images\\carmart.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67221"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rDSLSAxNa9Oi8F4g/LhVf3SlXttzxZ7C2i0eEb2MsDw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 06 Jun 2026 20:33:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rDSLSAxNa9Oi8F4g/LhVf3SlXttzxZ7C2i0eEb2MsDw="
+        }
+      ]
+    },
+    {
+      "Route": "images/curtains.89w8gj5v4y.jpeg",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\images\\curtains.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TKGLB5mGASpaAtid596712h6RuB5Q5zC9dEUF0Lmhqw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 06 Jun 2026 20:32:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "89w8gj5v4y"
+        },
+        {
+          "Name": "label",
+          "Value": "images/curtains.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TKGLB5mGASpaAtid596712h6RuB5Q5zC9dEUF0Lmhqw="
+        }
+      ]
+    },
+    {
+      "Route": "images/curtains.jpeg",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\images\\curtains.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TKGLB5mGASpaAtid596712h6RuB5Q5zC9dEUF0Lmhqw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 06 Jun 2026 20:32:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TKGLB5mGASpaAtid596712h6RuB5Q5zC9dEUF0Lmhqw="
+        }
+      ]
+    },
+    {
+      "Route": "images/dispenser.1k5jyvvogd.jpeg",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\images\\dispenser.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "164860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4dDLDI6KphEJXZ5DKlng0ds5xeSDihcBPNHpIPcFgA4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 06 Jun 2026 20:31:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1k5jyvvogd"
+        },
+        {
+          "Name": "label",
+          "Value": "images/dispenser.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4dDLDI6KphEJXZ5DKlng0ds5xeSDihcBPNHpIPcFgA4="
+        }
+      ]
+    },
+    {
+      "Route": "images/dispenser.jpeg",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\images\\dispenser.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "164860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4dDLDI6KphEJXZ5DKlng0ds5xeSDihcBPNHpIPcFgA4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 06 Jun 2026 20:31:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4dDLDI6KphEJXZ5DKlng0ds5xeSDihcBPNHpIPcFgA4="
+        }
+      ]
+    },
+    {
+      "Route": "images/headphones.jpeg",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\images\\headphones.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "109508"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+N8hxsIgFTLaFqalbGXFHVHCYijtSoaVHfLetNkIJy0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 06 Jun 2026 20:41:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+N8hxsIgFTLaFqalbGXFHVHCYijtSoaVHfLetNkIJy0="
+        }
+      ]
+    },
+    {
+      "Route": "images/headphones.wa8kpwkt4r.jpeg",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\images\\headphones.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "109508"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+N8hxsIgFTLaFqalbGXFHVHCYijtSoaVHfLetNkIJy0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 06 Jun 2026 20:41:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wa8kpwkt4r"
+        },
+        {
+          "Name": "label",
+          "Value": "images/headphones.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+N8hxsIgFTLaFqalbGXFHVHCYijtSoaVHfLetNkIJy0="
+        }
+      ]
+    },
+    {
+      "Route": "images/lazysofa.jpeg",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\images\\lazysofa.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84930"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OxYFugrdtr3o6ngUSXldX1Rz9G4ZrF3xpHSk0G33vLY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 06 Jun 2026 20:34:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OxYFugrdtr3o6ngUSXldX1Rz9G4ZrF3xpHSk0G33vLY="
+        }
+      ]
+    },
+    {
+      "Route": "images/lazysofa.tuzdnb7ovc.jpeg",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\images\\lazysofa.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84930"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OxYFugrdtr3o6ngUSXldX1Rz9G4ZrF3xpHSk0G33vLY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 06 Jun 2026 20:34:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tuzdnb7ovc"
+        },
+        {
+          "Name": "label",
+          "Value": "images/lazysofa.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OxYFugrdtr3o6ngUSXldX1Rz9G4ZrF3xpHSk0G33vLY="
+        }
+      ]
+    },
+    {
+      "Route": "images/nonstick-sufurias.efbxscket6.jpeg",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\images\\nonstick-sufurias.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49916"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5juBHhQuTG31zLhfYhuaqzDUf7V2kRB/Ppb0Umkurjw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 06 Jun 2026 20:33:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "efbxscket6"
+        },
+        {
+          "Name": "label",
+          "Value": "images/nonstick-sufurias.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5juBHhQuTG31zLhfYhuaqzDUf7V2kRB/Ppb0Umkurjw="
+        }
+      ]
+    },
+    {
+      "Route": "images/nonstick-sufurias.jpeg",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\images\\nonstick-sufurias.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49916"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5juBHhQuTG31zLhfYhuaqzDUf7V2kRB/Ppb0Umkurjw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 06 Jun 2026 20:33:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5juBHhQuTG31zLhfYhuaqzDUf7V2kRB/Ppb0Umkurjw="
+        }
+      ]
+    },
+    {
+      "Route": "images/wallhangers.jpeg",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\images\\wallhangers.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42578"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"44JLSoRKnOa/cbh4WHeVMJBBXT5W33/BvQGsuKQ5Udc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 06 Jun 2026 20:32:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-44JLSoRKnOa/cbh4WHeVMJBBXT5W33/BvQGsuKQ5Udc="
+        }
+      ]
+    },
+    {
+      "Route": "images/wallhangers.tctaujgfvb.jpeg",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\ShopApp\\wwwroot\\images\\wallhangers.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42578"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"44JLSoRKnOa/cbh4WHeVMJBBXT5W33/BvQGsuKQ5Udc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 06 Jun 2026 20:32:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tctaujgfvb"
+        },
+        {
+          "Name": "label",
+          "Value": "images/wallhangers.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-44JLSoRKnOa/cbh4WHeVMJBBXT5W33/BvQGsuKQ5Udc="
         }
       ]
     },
