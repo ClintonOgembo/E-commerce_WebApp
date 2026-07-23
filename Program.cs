@@ -56,11 +56,35 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapRazorPages();
 
-// ── Auto-apply migrations on startup ─────────────────────
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
     db.Database.Migrate();
+
+    var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+    var userManager = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
+
+    // Create Admin role if it doesn't exist
+    if (!await roleManager.RoleExistsAsync("Admin"))
+        await roleManager.CreateAsync(new IdentityRole("Admin"));
+
+    var adminEmail = "clintonogembo70@gmail.com";
+    var adminUser = await userManager.FindByEmailAsync(adminEmail);
+
+    if (adminUser == null)
+    {
+        adminUser = new ApplicationUser
+        {
+            UserName = "clintonogembo70@gmail.com",
+            Email = "clintonogembo70@gmail.com",
+            FirstName = "Clinton",
+            LastName = "Ogembo",
+            EmailConfirmed = true
+        };
+
+        await userManager.CreateAsync(adminUser, "Clinton@1234");
+        await userManager.AddToRoleAsync(adminUser, "Admin");
+    }
 }
 
 app.Run();
